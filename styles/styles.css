@@ -1,0 +1,41 @@
+* {
+  font-family: Helvetica;
+  color: black;
+}
+
+.header {
+
+}
+
+a {
+  color: #0000EE;
+}
+
+.section {
+  margin: 0 auto;
+}
+
+table.hovertable {
+  font-size: 14px;
+  color:#333333;
+  border-width: 1px;
+  border-color: #000000;
+  border-collapse: collapse;
+}
+table.hovertable th {
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #000000;
+}
+
+table.hovertable tr {
+
+}
+
+table.hovertable td {
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color:	#000000;
+}
