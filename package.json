@@ -1,0 +1,19 @@
+{
+  "name": "nequizbowl",
+  "version": "1.0.0",
+  "description": "New England Quiz Bowl Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vcpavao/nequizbowl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vcpavao/nequizbowl/issues"
+  },
+  "homepage": "https://github.com/vcpavao/nequizbowl#readme"
+}

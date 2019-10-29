@@ -1,43 +1,32 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="styles/styles.css">
-    <scripts src="scripts/scripts.js">
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <script src="scripts/index.js"></script>
     <meta charset="utf-8">
     <title>New England Quiz Bowl | Home</title>
-  </head>
-  <body>
-    <h1 class="header">New England Quiz Bowl</h1>
+</head>
 
-    <p class="description">Welcome! This page is meant to provide information on quiz bowl events in the New England area.</p>
+<body>
+  <h1 class="header">New England Quiz Bowl</h1>
+
+  <p class="description">Welcome! This page is meant to provide information on quiz bowl events in the New England area.</p>
+  <button class="btn default" id="hs-button" onclick="toggleClass()">College</button>
+  <div id="hs">
     <span class="section">
       <h2 class="header">High School Events</h2>
       <table class="hovertable">
         <tr>
-          <th>Name</th><th>Date</th><th>Location</th><th>Set</th>
+          <th>Name</th>
+          <th>Date</th>
+          <th>Location</th>
+          <th>Set</th>
         </tr>
         <tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#FFFFFF';">
-          <td><a href="https://hsquizbowl.org/forums/viewtopic.php?f=1&t=23089">FAcT XV</a></td>
-          <td>October 12, 2019</td>
-          <td><a href="https://goo.gl/maps/zPYUiRw69NRxxG5P8">Yale University, New Haven, CT</a></td>
-          <td><a href="https://www.naqt.com/samples/">IS-187A (NAQT)</a></td>
-        </tr>
-        <tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#FFFFFF';">
-          <td>Central Massachusetts Tournament</td>
-          <td>October 19, 2019</td>
-          <td><a href="https://goo.gl/maps/3UfNbj4So3LAqEt98">Advanced Math & Science Academy, Marlborough, MA</a></td>
-          <td><a href="https://www.naqt.com/samples/">IS-189A (NAQT)</a></td>
-        </tr>
-        <tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#FFFFFF';">
-          <td><a href="https://www.wgbh.org/high-school-quiz-show">High School Quiz Show (Massachusetts only)</a></td>
-          <td>October 20, 2019</td>
-          <td><a href="https://goo.gl/maps/7Dn3iDEtPZeBsF3K6">WGBH, Boston, MA</a></td>
-          <td><a href="https://www.wgbh.org/quiz-show/super-sunday-rules">More Information</a></td>
-        </tr>
-        <tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#FFFFFF';">
-          <td><a href="https://www.wgbh.org/high-school-quiz-show">WAIT Mirror @ MIT</a></td>
-          <td>November 9, 2019</td>
+          <td><a href=https://hsquizbowl.org/forums/viewtopic.php?f=1&t=23317">MIT Fall Academic Tournament</a></td>
+          <td>November 3, 2019</td>
           <td><a href="https://goo.gl/maps/8qTvyg7vTybKZtLr5">Massachusetts Institute of Technology, Cambridge, MA</a></td>
           <td><a href="https://www.hsquizbowl.org/forums/viewtopic.php?f=109&t=22850">WAIT</a></td>
         </tr>
@@ -53,37 +42,70 @@
           <td><a href="https://goo.gl/maps/kR8oLMkukdsuCA5t5">Harvard University, Cambridge, MA</a></td>
           <td><a href="https://hsquizbowl.org/forums/viewtopic.php?f=109&p=359376">HFT XIV</a></td>
         </tr>
+        <tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+            <td>Central Massachusetts Fall Tournament (CMFT) </td>
+            <td>November 23, 2019</td>
+            <td><a href="https://goo.gl/maps/3UfNbj4So3LAqEt98">Advanced Math & Science Academy, Marlborough, MA</a></td>
+            <td><a href="https://www.naqt.com/samples/">IS-189A (NAQT)</a></td>
+        </tr>
+          <tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+              <td>LVMIT</td>
+              <td>March 7, 2020</td>
+              <td><a href="https://goo.gl/maps/3UfNbj4So3LAqEt98">Lexington High School, Lexington, MA</a></td>
+              <td><a href="https://www.naqt.com/samples/">LOGIC</a></td>
+            </tr>
       </table>
     </span>
-    <span class="section">
-      <h2 class="header">College Events</h2>
-      <table class="hovertable">
-        <tr>
-          <th>Name</th><th>Date</th><th>Location</th><th>Set</th>
-        </tr>
-        <tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#FFFFFF';">
-          <td><a href="https://hsquizbowl.org/forums/viewtopic.php?p=361521">Early Fall Tournament</a></td>
-          <td>October 5, 2019</td>
-          <td><a href="https://goo.gl/maps/8qTvyg7vTybKZtLr5">Massachusetts Institute of Technology, Cambridge, MA</a></td>
-          <td><a href="https://www.naqt.com/samples/">EFT 2019</a></td>
-        </tr>
-        <tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#FFFFFF';">
-          <td>Penn Bowl Mirror (more to come)</td>
-          <td>October 19, 2019</td>
-          <td><a href="https://goo.gl/maps/kR8oLMkukdsuCA5t5">Harvard University, Cambridge, MA</a></td>
-          <td><a href="https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22723">Penn Bowl 2019</a></td>
-        </tr>
-      </table>
-    </span>
-    <span class="section">
-      <h2 class="header">Resources</h2>
-      <p>Below is a list of resources that can help teams dramatically improve their performance at tournaments.</p>
-      <ul>
-        <li><a href="https://www.naqt.com/frequency-lists/">NAQT Frequency Lists</a> &#8212; lists of answers to different topics on NAQT sets are available for purchase on their website.</li>
-        <li><a href="https://protobowl.com/">Protobowl</a> &#8212; a real-time quiz bowl simulation game.</li>
-        <li><a href="http://quizbowlpackets.com/">Quizbowl Packet Archive</a> &#8212; some past sets, such as Harvard Fall and PACE, are available to download for free.</li>
-        <li><a href="https://www.naqt.com/you-gotta-know/">You Gotta Know!</a> &#8212; NAQT's lists and brief summaries of recurring topics in quiz bowl questions.</li>
-      </ul>
-    </span>
-  </body>
+    </div>
+    <div id="clg">
+      <span class="section">
+        <h2 class="header">College Events</h2>
+        <table class="hovertable">
+          <tr>
+            <th>Name</th>
+            <th>Date</th>
+            <th>Location</th>
+            <th>Set</th>
+          </tr>
+          <tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+            <td><a href="https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23121">ACF Fall Tournament</td>
+            <td>November 2, 2019</td>
+            <td><a href="https://goo.gl/maps/zPYUiRw69NRxxG5P8">Yale University, New Haven, CT</a></td>
+            <td><a href="https://acf-quizbowl.com/fall/">2019 ACF Fall</a></td>
+          </tr>
+          <tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+              <td><a href="https://hsquizbowl.org/forums/viewtopic.php?f=8&t=23059">NYC Fall Open</td>
+              <td>November 9, 2019</td>
+              <td><a href="https://goo.gl/maps/zPYUiRw69NRxxG5P8">New York University, New York, NY</a></td>
+              <td><a href="https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22134">Fall Open</a></td>
+            </tr>
+          <tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#FFFFFF';">
+              <td><a href="https://hsquizbowl.org/forums/viewtopic.php?f=8&t=22505&p=362902&hilit=Brandeis#p362902">Brandeis Invitational</td>
+              <td>November 16, 2019</td>
+              <td><a href="https://goo.gl/maps/cSXUTNQ8gkF8rtBb7">Brandeis University, Waltham, MA</a></td>
+              <td><a href="https://www.naqt.com/college/collegiate-novice-series.html">NAQT Novice</a></td>
+            </tr>
+        </table>
+      </span>
+    </div>
+  <span class="section">
+    <h2 class="header">Past Results</h2>
+    <ul>
+      <li><a href="https://hsquizbowl.org/db/tournaments/5893/stats/all_games/">Early Fall Tournament at MIT (College) on October 5</a></li>
+      <li><a href="https://hsquizbowl.org/db/tournaments/5886/stats/combined/">Yale FAcT XV (High School) on October 12</a></li>
+      <li><a href="https://hsquizbowl.org/db/tournaments/6041/">Penn Bowl at Harvard (College) on October 19</a></li>
+    </ul>
+  </span>
+  <span class="section">
+    <h2 class="header">Study Resources</h2>
+    <p>Below is a list of resources that can help teams dramatically improve their performance at tournaments.</p>
+    <ul>
+      <li><a href="https://www.naqt.com/frequency-lists/">NAQT Frequency Lists</a> &#8212; lists of answers to different topics on NAQT sets are available for purchase on their website.</li>
+      <li><a href="https://protobowl.com/">Protobowl</a> &#8212; a real-time quiz bowl simulation game.</li>
+      <li><a href="http://quizbowlpackets.com/">Quizbowl Packet Archive</a> &#8212; some past sets, such as Harvard Fall and PACE, are available to download for free.</li>
+      <li><a href="https://www.naqt.com/you-gotta-know/">You Gotta Know!</a> &#8212; NAQT's lists and brief summaries of recurring topics in quiz bowl questions.</li>
+    </ul>
+  </span>
+</body>
+
 </html>

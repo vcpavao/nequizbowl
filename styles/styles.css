@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Livvic&display=swap");
 
 * {
-  font-family: 'Livvic', sans-serif;
+  font-family: "Livvic", sans-serif;
+}
+
+#clg {
+  display: none;
 }
 
 .header {
@@ -9,7 +13,7 @@
 }
 
 a {
-  color: #0000EE;
+  color: #0000ee;
 }
 
 .section {
@@ -18,7 +22,7 @@ a {
 
 table.hovertable {
   font-size: 14px;
-  color:#333333;
+  color: #333333;
   border-width: 1px;
   border-color: #000000;
   border-collapse: collapse;
@@ -31,12 +35,26 @@ table.hovertable th {
 }
 
 table.hovertable tr {
-
 }
 
 table.hovertable td {
   border-width: 1px;
   padding: 8px;
   border-style: solid;
-  border-color:	#000000;
+  border-color: #000000;
+}
+
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.default {
+  border-color: #e7e7e7;
+  color: black;
 }
